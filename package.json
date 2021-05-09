@@ -1,0 +1,27 @@
+{
+  "name": "basic-api",
+  "version": "1.0.0",
+  "description": "An basic API.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minomy13/basic-api.git"
+  },
+  "keywords": [
+    "API",
+    "template",
+    "basic"
+  ],
+  "author": "minomy13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minomy13/basic-api/issues"
+  },
+  "homepage": "https://github.com/minomy13/basic-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
