@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/minomy13/basic-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10"
   }
 }
