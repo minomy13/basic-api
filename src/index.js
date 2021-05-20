@@ -6,7 +6,13 @@ const mongoose = require('mongoose');
 const tokens = require('./config/tokens.json');
 
 // DB Connection
-mongoose.connect(tokens.mongodb);
+mongoose.connect(
+  tokens.mongodb,
+  { useNewUrlParser: true, useUnifiedTopology: true },
+  () => {
+    console.log('DB connected.');
+  }
+);
 
 // Routes Import
 const authRoute = require('./routes/auth');
