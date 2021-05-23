@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema({
       type: String,
     },
   },
-  date: {
+  birthdate: {
     type: Date,
     default: Date.now,
   },
