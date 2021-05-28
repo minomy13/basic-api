@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "test": "jest --ci --coverage --passWithNoTests"
+    "test": "jest --ci --passWithNoTests"
   },
   "repository": {
     "type": "git",
