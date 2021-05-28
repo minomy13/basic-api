@@ -10,6 +10,6 @@
     <img src="https://codecov.io/gh/minomy13/basic-api/branch/main/graph/badge.svg?token=53DVKG7OMY"/>
   </a>
   <a href="https://discord.gg/zwEaZTn">
-    <img src="https://img.shields.io/discord/706603856007790612"/>
+    <img src="https://img.shields.io/discord/706603856007790612?label=discord"/>
   </a> 
 </p>
