@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/minomy13/basic-api#readme",
   "dependencies": {
+    "codecov": "^3.8.2",
     "express": "^4.17.1",
+    "jest": "^27.0.1",
     "mongoose": "^5.12.10"
   }
 }
