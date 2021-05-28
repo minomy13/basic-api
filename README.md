@@ -5,4 +5,5 @@
   <img src="https://img.shields.io/tokei/lines/github/minomy13/basic-api">
   <img src="https://img.shields.io/github/languages/code-size/minomy13/basic-api">
   <img src="https://img.shields.io/github/languages/top/minomy13/basic-api">
+  <img src="https://img.shields.io/github/workflow/status/minomy13/basic-api/Build">
 </p>
