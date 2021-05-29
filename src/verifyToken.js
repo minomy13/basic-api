@@ -6,7 +6,7 @@ const tokens = require('./config/tokens.json');
 
 module.exports = function auth(req, res, next) {
   // Check For Token
-  const token = req.header.authentication;
+  const token = req.header('auth');
   if (!token) return res.status(401).send('Access denied.');
 
   // Verify
