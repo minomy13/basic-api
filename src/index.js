@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const tokens = require('./config/tokens.json');
 
 // Routes Import
+const statusRoute = require('./routes/status');
 const authRoute = require('./routes/auth');
 
 // DB Connection
@@ -22,6 +23,7 @@ mongoose.connect(
 app.use(express.json());
 
 // Routes Middleware
+app.use('/api/status', statusRoute);
 app.use('/api/user', authRoute);
 
 app.listen(3000, console.log('Running.'));
