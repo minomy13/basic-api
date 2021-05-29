@@ -6,6 +6,9 @@ const mongoose = require('mongoose');
 // Config Import
 const tokens = require('./config/tokens.json');
 
+// Routes Import
+const authRoute = require('./routes/auth');
+
 // DB Connection
 mongoose.connect(
   tokens.mongodb,
@@ -15,13 +18,10 @@ mongoose.connect(
   }
 );
 
-// Routes Import
-const authRoute = require('./routes/auth');
+// Middleware
+app.use(express.json());
 
 // Routes Middleware
 app.use('/api/user', authRoute);
-
-// Middleware
-app.use(express.json);
 
 app.listen(3000, console.log('Running.'));
