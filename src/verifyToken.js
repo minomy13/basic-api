@@ -2,7 +2,7 @@
 const jwt = require('jsonwebtoken');
 
 // Config Import
-const tokens = require('../config/tokens.json');
+const tokens = require('./config/tokens.json');
 
 module.exports = function auth(req, res, next) {
   // Check For Token
