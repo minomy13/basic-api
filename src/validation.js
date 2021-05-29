@@ -3,7 +3,7 @@ const Joi = require('@hapi/joi');
 
 // Register
 const registerValidation = (data) => {
-  const schema = {
+  const schema = Joi.object({
     name: Joi.string().min(6).required(),
     email: Joi.string().min(6).required().email(),
     password: Joi.string().min(6).required(),
@@ -11,19 +11,19 @@ const registerValidation = (data) => {
       mobile: Joi.string().min(6).required(),
     },
     birthday: Joi.date(),
-  };
+  });
 
-  return Joi.validate(data, schema);
+  return schema.validate(data);
 };
 
 // Login
 const loginValidation = (data) => {
-  const schema = {
+  const schema = Joi.object({
     email: Joi.string().min(6).required().email(),
     password: Joi.string().min(6).required(),
-  };
+  });
 
-  return Joi.validate(data, schema);
+  return schema.validate(data);
 };
 
 // Exports
