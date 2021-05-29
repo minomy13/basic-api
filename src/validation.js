@@ -12,5 +12,5 @@ const registerValidation = (data) => {
     birthday: Joi.date(),
   };
 
-  Joi.validate(data, schema);
+  return Joi.validate(data, schema);
 };
