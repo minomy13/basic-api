@@ -1,5 +1,8 @@
 // Module Imports
 const router = require('express').Router();
+const bcrypt = require('bcryptjs');
+
+// Model Imports
 const User = require('../model/User');
 
 // Validation Imports
@@ -15,11 +18,15 @@ router.post('/register', async (req, res) => {
   const emailExist = await User.findOne({ email: req.body.email });
   if (emailExist) return res.status(400).send('Email allready exists.');
 
+  // Hashing Password
+  const salt = await bcrypt.genSalt(10);
+  const hashedPassword = await bcrypt.hash(req.body.password, salt);
+
   // User Creation
   const user = new User({
     name: req.body.name,
     email: req.body.email,
-    password: req.body.password,
+    password: hashedPassword,
     phone: {
       mobile: req.body.phone.mobile,
     },
