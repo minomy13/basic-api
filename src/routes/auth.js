@@ -61,7 +61,13 @@ router.post('/login', async (req, res) => {
   if (!validPass) return res.status(400).send('Email or password wrong. [P]');
 
   // JWT
-  const token = jwt.sign({ _id: user._id }, tokens.TOKEN_SECRET);
+  const token = jwt.sign(
+    {
+      exp: Math.floor(Date.now() / 1000) + 60 * 60,
+      _id: user._id,
+    },
+    tokens.TOKEN_SECRET
+  );
   res.header('authentication', token).send(token);
 });
 
