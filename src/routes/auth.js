@@ -1,7 +1,15 @@
+// Module Imports
 const router = require('express').Router();
 const User = require('../model/User');
 
+// Validation Imports
+const { registerValidation } = require('../validation');
+
+// Register
 router.post('/register', async (req, res) => {
+  const { error } = registerValidation(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
+
   const user = new User({
     name: req.body.name,
     email: req.body.email,
