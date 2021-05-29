@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/minomy13/basic-api#readme",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "codecov": "^3.8.2",
     "express": "^4.17.1",
     "jest": "^27.0.1",
