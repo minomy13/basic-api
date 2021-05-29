@@ -7,9 +7,11 @@ const { registerValidation } = require('../validation');
 
 // Register
 router.post('/register', async (req, res) => {
+  // Validation
   const { error } = registerValidation(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
+  // User Creation
   const user = new User({
     name: req.body.name,
     email: req.body.email,
@@ -20,6 +22,7 @@ router.post('/register', async (req, res) => {
     birthday: new Date(req.body.birthday),
   });
 
+  // Saving User
   try {
     const savedUser = await user.save();
     res.send(savedUser);
