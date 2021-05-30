@@ -92,6 +92,10 @@ In this part I will describe how to set up a MongoDB database for your project/s
 
 ### Atlas
 
+This is a cloud service from MongoDB itself. Its good for testing or small projects, if you don't need much space.
+
+At first you should go to [MongoDB Atlas](https://cloud.mongodb.com). There you can create a free account or log in with Google.
+
 ### Self Hosted
 
 ## Adding new routes
