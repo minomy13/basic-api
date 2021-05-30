@@ -56,4 +56,10 @@ If you'd like to write unit tests, this is the right script for you! You can inf
 
 # CI
 
+# MongoDB
+
+# Adding new routes
+
+# Config
+
 **README will be finished in a few days.**
