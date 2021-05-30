@@ -27,7 +27,7 @@ router.post('/register', async (req, res) => {
   const hashedPassword = await bcrypt.hash(req.body.password, salt);
 
   // User Creation
-  const user = new User({
+  var userObj = {
     name: req.body.name,
     email: req.body.email,
     password: hashedPassword,
@@ -35,7 +35,12 @@ router.post('/register', async (req, res) => {
       mobile: req.body.phone.mobile,
     },
     birthday: new Date(req.body.birthday),
-  });
+  };
+
+  if (req.body.phone.private) {userObj.phone.private = req.body.phone.private};
+  if (req.body.phone.bussiness) {userObj.phone.bussiness = req.body.phone.bussiness};
+
+  const user = new User(userObj);
 
   // Saving User
   try {
