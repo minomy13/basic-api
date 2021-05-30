@@ -58,8 +58,24 @@ If you'd like to write unit tests, this is the right script for you! You can inf
 
 # MongoDB
 
+## Atlas
+
+## Self Hosted
+
 # Adding new routes
 
+## How To
+
+## Securing Them
+
 # Config
+
+## Jest
+
+## Codecov
+
+## Prettier
+
+## node.js / package.json
 
 **README will be finished in a few days.**
