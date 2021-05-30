@@ -58,6 +58,34 @@ If you'd like to write unit tests, this is the right script for you! You can inf
 
 I will describe this for GitHub Actions. I think, that this is the easiest way for small projects.
 
+#### Step 1
+
+```yml
+name: Build
+```
+
+At first you have to give your workflow a name.
+
+#### Step 2
+
+```yml
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+```
+
+Then you should define, when the workflow runs. In this example it runs on pushes and pull requests on the 'main' branch. If you want to add a branch, simply do:
+
+```yml
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+```
+
 ## MongoDB
 
 In this part I will describe how to set up a MongoDB database for your project/s. First I will use MongoDB Atlas and then Docker and Linux.
