@@ -54,28 +54,28 @@ This script is used for CIs. See 'CI' for more Information.
 
 If you'd like to write unit tests, this is the right script for you! You can inform you about this here: [Jest Unit Tests - Getting Started](https://jestjs.io/docs/getting-started). You have to name your test files like `filetotest.test.js`. Then you can run `npm run test-manual`.
 
-# CI
+## CI
 
-# MongoDB
+## MongoDB
 
-## Atlas
+### Atlas
 
-## Self Hosted
+### Self Hosted
 
-# Adding new routes
+## Adding new routes
 
-## How To
+### How To
 
-## Securing Them
+### Securing Them
 
-# Config
+## Config
 
-## Jest
+### Jest
 
-## Codecov
+### Codecov
 
-## Prettier
+### Prettier
 
-## node.js / package.json
+### node.js / package.json
 
 **README will be finished in a few days.**
