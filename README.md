@@ -46,4 +46,4 @@ Then there is the 'start' script. This one you can use, if you want to use your 
 
 This script is used for CIs. See 'CI' for more Information.
 
-<span color="red">README will be finished in a few days.</span>
+<span style="color: red">README will be finished in a few days.</span>
