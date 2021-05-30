@@ -30,7 +30,7 @@ At first you have to add the `src/config/tokens.json` file. It has to be structu
 }
 ```
 
-In the part 'MongoDB' I will help you setting up the database.
+In the part 'MongoDB' I will help you setting up the database. If this don't helps you enough, as allways ask me.
 
 The `TOKEN_SECRET` is completely random. You can use a password generator if you want. (About 64 charakters?)
 
