@@ -41,3 +41,9 @@ At first there is the 'dev' script. When you are developing, its very helpful, b
 ### START
 
 Then there is the 'start' script. This one you can use, if you want to use your finished API. Its staticly and don't changes anyting if you are changing a file.
+
+### TEST
+
+This script is used for CIs. See 'CI' for more Information.
+
+<span color="red">README will be finished in a few days.</span>
