@@ -30,6 +30,10 @@ At first you have to add the `src/config/tokens.json` file. It has to be structu
 }
 ```
 
+In the part 'MongoDB' I will help you setting up the database.
+
+The `TOKEN_SECRET` is completely random. You can use a password generator if you want. (About 64 charakters?)
+
 After this, you have to run `npm install`, to install all node modules. If this is done, you can start the server. See "Scripts".
 
 ## Scripts
