@@ -46,7 +46,7 @@ Then there is the 'start' script. This one you can use, if you want to use your 
 
 This script is used for CIs. See 'CI' for more Information.
 
-## TEST-MANUAL
+### TEST-MANUAL
 
 If you'd like to write unit tests, this is the right script for you! You can inform you about this here: [Jest Unit Tests - Getting Started](https://jestjs.io/docs/getting-started). You have to name your test files like `filetotest.test.js`. Then you can run `npm run test-manual`.
 
