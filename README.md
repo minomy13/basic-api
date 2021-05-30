@@ -40,10 +40,14 @@ At first there is the 'dev' script. When you are developing, its very helpful, b
 
 ### START
 
-Then there is the 'start' script. This one you can use, if you want to use your finished API. Its staticly and don't changes anyting if you are changing a file.
+Then there is the 'start' script. This one you can use, if you want to use your finished API. Its staticly and don't changes anyting if you are changing a file. Run `npm start`.
 
 ### TEST
 
 This script is used for CIs. See 'CI' for more Information.
+
+## TEST-MANUAL
+
+If you'd like to write unit tests, this is the right script for you! You can inform you about this here: ![Jest](https://jestjs.io/docs/getting-started). You have to name your test files like `filetotest.test.js`. Then you can run `npm run test-manual`.
 
 **README will be finished in a few days.**
