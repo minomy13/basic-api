@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/discord/706603856007790612?label=discord"/>
   </a>
 </p>
-Hi :) This is a simple template of an API for you. Its buold with node.js. You should have 'npm' and 'node.js' installed on you system. You can use it for your project (simply fork the repo) an you can edit every file you want. If you need help, you can ask me every time you want on discord. (See the Discord badge at the top?) Good luck and happy programming :)
+Hi :) This is a simple template of an API for you. Its build with node.js. You should have 'npm' and 'node.js' installed on your system. You can use it for your project (simply fork the repo) and you can edit every file you want. If you need help, you can ask me every time you want on discord. (See the Discord badge at the top?) Good luck and happy programming :) 😎
 
 ## Set Up
 
