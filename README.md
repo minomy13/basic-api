@@ -48,6 +48,6 @@ This script is used for CIs. See 'CI' for more Information.
 
 ## TEST-MANUAL
 
-If you'd like to write unit tests, this is the right script for you! You can inform you about this here: ![Jest](https://jestjs.io/docs/getting-started). You have to name your test files like `filetotest.test.js`. Then you can run `npm run test-manual`.
+If you'd like to write unit tests, this is the right script for you! You can inform you about this here: [Jest](https://jestjs.io/docs/getting-started). You have to name your test files like `filetotest.test.js`. Then you can run `npm run test-manual`.
 
 **README will be finished in a few days.**
