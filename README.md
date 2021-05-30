@@ -30,10 +30,14 @@ At first you have to add the `src/config/tokens.json` file. It has to be structu
 }
 ```
 
-After this, you have to run `npm install`, to install all node modules. After this is done, you can start the server. See "Scripts".
+After this, you have to run `npm install`, to install all node modules. If this is done, you can start the server. See "Scripts".
 
 ## Scripts
 
 ### DEV
 
-At first there
+At first there is the 'dev' script. When you are developing, its very helpful, because its restarting the server everytime you are saving a file. Thats 'nodemon'. Simply run `npm run dev`.
+
+### START
+
+Then there is the 'start' script. This one you can use, if you want to use your finished API. Its staticly and don't changes anyting if you are changing a file.
