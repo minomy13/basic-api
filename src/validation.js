@@ -9,6 +9,8 @@ const registerValidation = (data) => {
     password: Joi.string().min(6).required(),
     phone: {
       mobile: Joi.string().min(6).required(),
+      private: Joi.string().min(6),
+      bussiness: Joi.string().min(6)
     },
     birthday: Joi.date(),
   });
