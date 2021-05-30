@@ -17,11 +17,11 @@
     <img src="https://img.shields.io/discord/706603856007790612?label=discord"/>
   </a>
 </p>
-Hi :) This is a simple template of an API for you. You can use it for your project (simply fork the repo) an you can edit every file you want. If you need help, you can ask me every time you want on discord. (See the Discord badge at the top?) Good luck and happy programming :)
+Hi :) This is a simple template of an API for you. Its buold with node.js. You should have 'npm' and 'node.js' installed on you system. You can use it for your project (simply fork the repo) an you can edit every file you want. If you need help, you can ask me every time you want on discord. (See the Discord badge at the top?) Good luck and happy programming :)
 
 ## Set Up
 
-At first you have to add the `src/config/tokens.json` file. It has to be structures like so:
+At first you have to add the `src/config/tokens.json` file. It has to be structured like so:
 
 ```json
 {
@@ -36,7 +36,7 @@ After this, you have to run `npm install`, to install all node modules. If this 
 
 ### DEV
 
-At first there is the 'dev' script. When you are developing, its very helpful, because its restarting the server everytime you are saving a file. Thats 'nodemon'. Simply run `npm run dev`.
+At first there is the 'dev' script. When you are developing, its very helpful, because its restarting the server everytime you are saving a file. Thats 'nodemon'. If this package isn't installed on your system, please install it with the command `npm i nodemon -g`. Then you can simply run `npm run dev`.
 
 ### START
 
