@@ -56,9 +56,11 @@ If you'd like to write unit tests, this is the right script for you! You can inf
 
 ## CI
 
-I will describe this fir Github Actions. I think, that this is the easiest way for small projects.
+I will describe this for GitHub Actions. I think, that this is the easiest way for small projects.
 
 ## MongoDB
+
+In this part I will describe how to set up a MongoDB database for your project/s. First I will use MongoDB Atlas and then Docker and Linux.
 
 ### Atlas
 
