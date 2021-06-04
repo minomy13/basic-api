@@ -2,7 +2,7 @@
 const router = require('express').Router();
 
 // Verification Import
-const verify = require('../verifyToken');
+const verify = require('../middleware/verifyToken');
 
 router.get('/', verify, (req, res) => {
   res.json({
