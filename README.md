@@ -114,4 +114,10 @@ At first you should go to [MongoDB Atlas](https://cloud.mongodb.com). There you 
 
 ### node.js / package.json
 
+## License
+
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fminomy13%2Fbasic-api?ref=badge_large" alt="FOSSA Status">
+  <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fminomy13%2Fbasic-api.svg?type=large"/>
+</a>
+
 **README will be finished in a few days.**
