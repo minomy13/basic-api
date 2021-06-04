@@ -16,9 +16,6 @@
   <a href="https://discord.gg/zwEaZTn">
     <img src="https://img.shields.io/discord/706603856007790612?label=discord"/>
   </a>
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fminomy13%2Fbasic-api?ref=badge_small" alt="FOSSA Status">
-    <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fminomy13%2Fbasic-api.svg?type=small"/>
-  </a>
 </p>
 Hi :) This is a simple template of an API for you. Its build with node.js. You should have 'npm' and 'node.js' installed on your system. You can use it for your project (simply fork the repo) and you can edit every file you want. If you need help, you can ask me every time you want on discord. (See the Discord badge at the top?) Good luck and happy programming :) 😎
 
@@ -116,5 +113,11 @@ At first you should go to [MongoDB Atlas](https://cloud.mongodb.com). There you 
 ### Prettier
 
 ### node.js / package.json
+
+## License
+
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fminomy13%2Fbasic-api?ref=badge_large" alt="FOSSA Status">
+  <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fminomy13%2Fbasic-api.svg?type=large"/>
+</a>
 
 **README will be finished in a few days.**
