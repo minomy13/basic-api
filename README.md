@@ -13,11 +13,15 @@
   <a href="https://www.codacy.com/gh/minomy13/basic-api/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=minomy13/basic-api&amp;utm_campaign=Badge_Grade">
     <img src="https://app.codacy.com/project/badge/Grade/2815c8618d154ac38fce90cbc9c21a26"/>
   </a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fminomy13%2Fbasic-api?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fminomy13%2Fbasic-api.svg?type=shield"/></a>
   <a href="https://discord.gg/zwEaZTn">
     <img src="https://img.shields.io/discord/706603856007790612?label=discord"/>
   </a>
 </p>
 Hi :) This is a simple template of an API for you. Its build with node.js. You should have 'npm' and 'node.js' installed on your system. You can use it for your project (simply fork the repo) and you can edit every file you want. If you need help, you can ask me every time you want on discord. (See the Discord badge at the top?) Good luck and happy programming :) 😎
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fminomy13%2Fbasic-api.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fminomy13%2Fbasic-api?ref=badge_large)
 
 ## Set Up
 
